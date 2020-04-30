@@ -1,0 +1,221 @@
+.standfirst,
+.leadline {
+  font-size: var(--ucla-font-size-large);
+  line-height: var(--ucla-line-height-alt);
+}
+
+// used only on typesheet sample page.
+.typography {
+  main {
+    display: grid;
+    font-family: var(--ucla-font-family);
+    grid-gap: 2vw;
+    grid-template-areas:
+      "type-face",
+      "type-scale",
+      "stratcomm-type-scale",
+      "type-sample";
+    //grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  header h1 {
+    font-size: var(--ucla-font-size-display);
+    font-weight: var(--ucla-font-weight-bold);
+    margin: 0;
+  }
+
+  .type-face {
+    grid-area: type-face;
+    grid-row: 1;
+  }
+
+  .type-scale {
+    grid-area: type-scale;
+    grid-row: 3;
+
+    dl {
+      display: grid;
+      grid-gap: 2vw;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    dl div {
+      margin-bottom: 1em;
+      border-bottom: 1px solid var(--ucla-black-10);
+    }
+  }
+
+  .stratcomm-type-scale {
+    grid-area: stratcomm-type-scale;
+    grid-row: 4;
+
+    dl {
+      display: grid;
+      grid-gap: 2vw;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    dl div {
+      margin-bottom: 1em;
+      border-bottom: 1px solid var(--ucla-black-10);
+    }
+  }
+
+  .type-sample {
+    grid-area: type-sample;
+    grid-row: 2;
+    font-size: var(--ucla-font-size-x-large);
+    overflow-wrap: break-word;
+
+    h2 {
+      font-size: var(--ucla-font-size-xx-large);
+      font-weight: var(--ucla-font-weight-bold);
+    }
+  }
+
+  footer {
+    border-top: var(--ucla-border-width-hairline) solid var(--ucla-color-border-separator);
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: var(--ucla-spacing-medium);
+  }
+
+  .thin {
+    font-weight: var(--ucla-font-weight-thin);
+  }
+
+  .light {
+    font-weight: var(--ucla-font-weight-light);
+  }
+
+  .regular {
+    font-weight: var(--ucla-font-weight);
+  }
+
+  .medium {
+    font-weight: var(--ucla-font-weight-medium);
+  }
+
+  .semi-bold {
+    font-weight: var(--ucla-font-weight-semi-bold);
+  }
+
+  .bold {
+    font-weight: var(--ucla-font-weight-bold);
+  }
+
+  .xbold {
+    font-weight: var(--ucla-font-weight-xbold);
+  }
+
+  .black {
+    font-weight: var(--ucla-font-weight-black);
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .font-size-x-small {
+    font-size: var(--ucla-font-size-x-small);
+  }
+
+  .font-size-small {
+    font-size: var(--ucla-font-size-small);
+  }
+  
+  .font-size {
+    font-size: var(--ucla-font-size);
+  }
+  
+  .font-size-medium {
+    font-size: var(--ucla-font-size-medium);
+  }
+  
+  .font-size-large {
+    font-size: var(--ucla-font-size-large);
+  }
+  
+  .font-size-x-large {
+    font-size: var(--ucla-font-size-x-large);
+  }
+  
+  .font-size-xx-large {
+    font-size: var(--ucla-font-size-xx-large);
+  }
+
+  .font-size-xxx-large {
+    font-size: var(--ucla-font-size-xxx-large);
+  }
+
+  .font-size-xxxx-large {
+    font-size: var(--ucla-font-size-xxxx-large);
+  }
+  
+  .font-size-display {
+    font-size: var(--ucla-font-size-display);
+  }
+
+  .font-size-x-display {
+    font-size: var(--ucla-font-size-x-display);
+  }
+
+  .font-size-xx-display {
+    font-size: var(--ucla-font-size-xx-display);
+  }
+
+  .font-size-xxx-display {
+    font-size: var(--ucla-font-size-xxx-display);
+  }
+
+  .font-size-xxxx-display {
+    font-size: var(--ucla-font-size-xxxx-display);
+  }
+
+
+  .stratcomm-font-size-small {
+    font-size: var(--ucla-stratcomm-font-size-small);
+  }
+  
+  .stratcomm-font-size {
+    font-size: var(--ucla-stratcomm-font-size);
+  }
+  
+  .stratcomm-font-size-medium {
+    font-size: var(--ucla-stratcomm-font-size-medium);
+  }
+  
+  .stratcomm-font-size-large {
+    font-size: var(--ucla-stratcomm-font-size-large);
+  }
+  
+  .stratcomm-font-size-x-large {
+    font-size: var(--ucla-stratcomm-font-size-x-large);
+  }
+  
+  .stratcomm-font-size-xx-large {
+    font-size: var(--ucla-stratcomm-font-size-xx-large);
+  }
+
+  .stratcomm-font-size-xxx-large {
+    font-size: var(--ucla-stratcomm-font-size-xxx-large);
+  }
+
+  .stratcomm-font-size-xxxx-large {
+    font-size: var(--ucla-stratcomm-font-size-xxxx-large);
+  }
+  
+  .stratcomm-font-size-display {
+    font-size: var(--ucla-stratcomm-font-size-display);
+  }
+
+  --ucla-stratcomm-font-size-display: 4.5rem; //54px
+  --ucla-stratcomm-font-size-xx-large: 3rem; //48px
+  --ucla-stratcomm-font-size-x-large: 2.25rem; //36px
+  --ucla-stratcomm-font-size-large: 1.5rem; //24px
+  --ucla-stratcomm-font-size-medium: 1.125rem; //20px
+  --ucla-stratcomm-font-size: 1rem; //16px
+  --ucla-stratcomm-font-size-small: .8rem; //12.8px
+  --ucla-stratcomm-font-size-x-small: .75rem; //12px
+}
