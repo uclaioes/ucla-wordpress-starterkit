@@ -1,4 +1,5 @@
-# WordPress TwentyTwenty Child Theme for WordPress
+# UCLA 2020 WordPress Theme
+The UCLA 2020 WordPress theme is a child theme for the default WordPress TwentyTwenty Theme
 
 ## Themes
 - [TwentyTwenty](https://wordpress.org/themes/twentytwenty/)
@@ -10,22 +11,21 @@
 - [WordFence](https://www.wordfence.com/)
 - [SVG Support](https://wordpress.org/plugins/svg-support/)
 - [Query Monitor](https://wordpress.org/plugins/query-monitor/)
-- [Site Kit by Google](https://wordpress.org/plugins/google-site-kit/)
 - [Classic Editor](https://wordpress.org/plugins/classic-editor/)
 
 
 ## Preprocessors
 - [Scss](https://sass-lang.com/)
-- [Stylelint](https://stylelint.io/)
 - [node and npm](https://nodejs.org/en/)
 
-### Stylelint plugins
+### Stylelint plugins (TBD)
+- [Stylelint](https://stylelint.io/)
 - [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended)
 - [stylelint-config-wordpress](https://github.com/WordPress-Coding-Standards/stylelint-config-wordpress)
 - [stylelint-order](https://github.com/hudochenkov/stylelint-order)
 - [stylelint-a11y](https://github.com/YozhikM/stylelint-a11y)
 
-## Component libraries
+## Component libraries (TBD)
 - [Fractal](https://fractal.build/)
 
 ## Editors
@@ -33,7 +33,7 @@
 - [VS Code](https://code.visualstudio.com/) or [Atom.io](https://atom.io/)
 
 ---
-## Install
+## Install (TBD)
 
 `npm install`
 
