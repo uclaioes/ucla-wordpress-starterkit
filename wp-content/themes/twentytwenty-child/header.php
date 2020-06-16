@@ -14,22 +14,38 @@
 <html class="no-js" <?php language_attributes(); ?>>
 
 	<head>
-
-
+	<script>performance.mark('HEAD Start');</script>
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 		<link rel="profile" href="https://gmpg.org/xfn/11">
-		
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		
+			
+		<script>performance.mark('WP_Head Start');</script>	
 		<?php wp_head(); ?>
+		
+		<script>
+			performance.mark('WP_Head End');
+			performance.measure('WP_Head Time', 'WP_Head Start', 'WP_Head End');
+		</script>	
+		
+		<script>performance.mark('GAUGES Analytics Start');</script>
+		<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-3988213-2', {'siteSpeedSampleRate': 100});
+		ga('send', 'pageview');
+		</script>
 
+		<script>
+			performance.mark('GAUGES Analytics End');
+			performance.measure('GAUGES Analytics Time', 'GAUGES Analytics Start', 'GAUGES Analytics End');
+		</script>
+
+		<script>
+		performance.mark('HEAD End');
+		performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
+		</script>		
 	</head>
-
+	<script>performance.mark('BODY Start');</script>
 	<body <?php body_class(); ?>>
 
 		<?php
@@ -61,11 +77,10 @@
 						</button><!-- .search-toggle -->
 
 					<?php } ?>
-
 					<div class="header-titles">
-
 						<?php
 							// Site title or logo.
+							
 							twentytwenty_site_logo();
 
 							// Site description.

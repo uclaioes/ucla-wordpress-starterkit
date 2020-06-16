@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying single posts and pages.
+ * The template to display a single publication
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

@@ -16,12 +16,10 @@
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<?php
-
-	get_template_part( 'template-parts/entry-header' );
-
-	if ( ! is_search() ) {
-		get_template_part( 'template-parts/featured-image' );
-	}
+		
+		if ( ! is_search() ) {
+			get_template_part( 'template-parts/featured-image' );
+		}
 
 	?>
 
@@ -30,6 +28,12 @@
 		<div class="entry-content">
 
 			<?php
+			if ( is_front_page() ) :
+
+			else :	
+				get_template_part( 'template-parts/entry-header' );
+			endif;
+
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
 			} else {

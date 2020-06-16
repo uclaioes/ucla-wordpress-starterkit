@@ -1,6 +1,6 @@
 <?php
 /**
- * The default template for displaying content
+ * The template to display list of publications using ACF
  *
  * Used for both singular and index.
  *

@@ -1,7 +1,7 @@
 <?php
 /*
 
-Template Name: TreePeople Publications Archive
+Template Name: Publications Archive
 
 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
 *
