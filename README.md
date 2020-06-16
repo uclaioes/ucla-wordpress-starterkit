@@ -1,4 +1,4 @@
-# UCLA 2020 WordPress Theme
+# UCLA 2020 WordPress Theme Template
 The UCLA 2020 WordPress theme is a child theme for the default WordPress TwentyTwenty Theme
 
 ## Themes
@@ -13,6 +13,17 @@ The UCLA 2020 WordPress theme is a child theme for the default WordPress TwentyT
 - [Query Monitor](https://wordpress.org/plugins/query-monitor/)
 - [Classic Editor](https://wordpress.org/plugins/classic-editor/)
 
+
+---
+## Install Theme Instructions
+
+1. Use this template and copy to your own Git account. 
+1. Download template 
+1. Install child theme into your WordPress Site
+1. Activate Child Theme
+
+---
+# Developers
 
 ## Preprocessors
 - [Scss](https://sass-lang.com/)
@@ -32,8 +43,8 @@ The UCLA 2020 WordPress theme is a child theme for the default WordPress TwentyT
 - [CodeKit](https://codekitapp.com/) or [Prepos](https://prepros.io/)
 - [VS Code](https://code.visualstudio.com/) or [Atom.io](https://atom.io/)
 
----
-## Install (TBD)
+
+## Install Instructions (TBD)
 
 `npm install`
 
