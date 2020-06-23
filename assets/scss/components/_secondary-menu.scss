@@ -1,0 +1,24 @@
+.secondary-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: var(--ucla-spacing-medium) auto;
+  max-width: var(--ucla-min-width);
+}
+
+.secondary-menu li  {
+  
+  margin: var(--ucla-spacing) 0;
+}
+
+.secondary-menu a  {
+  background-color: var(--ucla-blue);
+  padding: var(--ucla-spacing);
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-menu a:hover  {
+  background-color: var(--ucla-blue-darker);
+}

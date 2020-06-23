@@ -1,0 +1,120 @@
+
+
+.entry-content {
+	font-size: $ucla-font-size-medium;
+	font-size: var(--ucla-font-size-medium);
+	
+}
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	max-width: $ucla-min-width;
+	max-width: var(--ucla-min-width);
+	width: calc(100% - 6rem);
+}
+
+.entry-content p,
+.entry-content li {
+	line-height: $ucla-line-height-text;
+	line-height: var(--ucla-line-height-text);
+}
+
+.entry-content h1, 
+.entry-content h2, 
+.entry-content h3 {
+	margin: 0 auto 1rem;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+		//margin: 6rem auto 3rem;
+}
+
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	margin: 4.5rem auto 2.5rem;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+ //margin: 3.5rem auto 2rem;
+}
+
+.entry-content > * {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	
+}
+
+.entry-content > .alignfull {
+	margin-bottom: 10rem;
+	//margin-top: 10rem;
+}
+
+// .entry-content hr,
+// hr.styled-separator {
+// 	background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+// 	background-color: transparent !important;
+// 	border: none;
+// 	height: 0.1rem;
+// 	overflow: visible;
+// 	position: relative;
+// }
+
+
+.entry-content hr:not(.has-background),
+hr.styled-separator {
+	color: var(--ucla-blue-darkest);
+}
+
+// .entry-content hr::before,
+// .entry-content hr::after,
+// hr.styled-separator::before,
+// hr.styled-separator::after {
+// 	background: currentColor;
+// 	content: "";
+// 	display: block;
+// 	height: 1.6rem;
+// 	position: absolute;
+// 	top: calc(50% - 0.8rem);
+// 	transform: rotate(22.5deg);
+// 	width: 0.1rem;
+// }
+
+// .entry-content hr::before,
+// hr.styled-separator::before {
+// 	left: calc(50% - 0.5rem);
+// }
+
+// .entry-content hr::after,
+// hr.styled-separator::after {
+// 	right: calc(50% - 0.5rem);
+// }
+
+hr.wp-block-separator {
+	margin: 3rem auto;
+}
+
+hr.wp-block-separator {
+	//margin: 3rem auto;
+}
+
+.wp-block-separator.is-style-wide {
+	max-width: calc(100vw - 8rem);
+}
+
+
+.entry-content .wp-block-columns h1,
+.entry-content .wp-block-columns h2,
+.entry-content .wp-block-columns h3,
+.entry-content .wp-block-columns h4,
+.entry-content .wp-block-columns h5,
+.entry-content .wp-block-columns h6 {
+	margin: 3.5rem 0 2rem;
+}
