@@ -1,5 +1,5 @@
 # UCLA 2020 WordPress Theme Template
-The UCLA 2020 WordPress theme is a child theme for the default WordPress TwentyTwenty Theme
+The UCLA 2020 WordPress theme is a parent theme forked from the default WordPress TwentyTwenty Theme
 
 ## Themes
 - [TwentyTwenty](https://wordpress.org/themes/twentytwenty/)
