@@ -1,26 +1,29 @@
-# UCLA 2020 WordPress Theme Template
+# UCLA 2020 WordPress Theme
 The UCLA 2020 WordPress theme is a parent theme forked from the default WordPress TwentyTwenty Theme
 
 ## Themes
+- [UCLA 2020 Theme](https://github.com/ucla-ux/ucla-wordpress-starterkit.git)
 - [TwentyTwenty](https://wordpress.org/themes/twentytwenty/)
-- [TwentyTwenty Child Theme](https://github.com/ucla-ux/ucla-wordpress-starterkit.git)
 
 ## Plugins
 - [Advanced Custom Fields Pro](https://www.advancedcustomfields.com)
-- [Admin Columns Pro]()
+- [Admin Columns Pro](https://www.admincolumns.com/)
 - [WordFence](https://www.wordfence.com/)
 - [SVG Support](https://wordpress.org/plugins/svg-support/)
 - [Query Monitor](https://wordpress.org/plugins/query-monitor/)
 - [Classic Editor](https://wordpress.org/plugins/classic-editor/)
+- [WP Migrate DB Pro](https://deliciousbrains.com/wp-migrate-db-pro/)
+- [WordFence](https://www.wordfence.com/)
 
 
 ---
-## Install Theme Instructions
+## Install Instructions
 
 1. Use this template and copy to your own Git account. 
 1. Download template 
-1. Install child theme into your WordPress Site
-1. Activate Child Theme
+1. Install theme into your WordPress Site
+1. Activate Theme
+1. Compile scss file to overwrite style.css in theme
 
 ---
 # Developers
