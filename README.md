@@ -19,14 +19,14 @@ The UCLA 2020 WordPress theme is a parent theme forked from the default WordPres
 ---
 ## Install Instructions
 
-1. Use this template and copy to your own Git account. 
-1. Download template 
+1. Download, copy or fork this Git template to your Git account. 
+1. Download template and install theme into your WordPress site
 1. Install theme into your WordPress Site
 1. Activate Theme
 1. Compile scss file to overwrite style.css in theme
 
 ---
-# Developers
+# For Developers
 
 ## Preprocessors
 - [Scss](https://sass-lang.com/)
@@ -54,3 +54,43 @@ The UCLA 2020 WordPress theme is a parent theme forked from the default WordPres
 ## Contribute
 Post issues and submit pull requests to [GitHub](https://github.com/ucla-ux/ucla-wordpress-starterkit).
 
+## Global naming conventions.
+
+- Adopts `ucla-` global prefix on SCSS variables and CSS Custom Properties. 
+- Customize for your department with naming convention pattern `ucla-deptname-`
+- Advanced custom fields also used naming convention. 
+
+## Content types
+
+### People
+
+- [ACF Field Group export](acf-export-ucla-p-content-type.json) use to import into WordPress (requires ACF plugin). 
+- Field names choice based on microformat taxonomy for a person.
+
+1. First name, `ucla-p-given-name`
+1. Middle name, `ucla-p-additional-name`
+1. Last name, `ucla-p-family-name`
+1. Honorific prefix `ucla-p-honorific-prefix`
+1. Honorific suffix `ucla-p-honorific-suffix`
+1. Photo `ucla-p-photo`
+1. Job Title `ucla-p-job-title`
+1. Department `ucla-p-org`
+1. Telephone `ucla-p-tel`
+1. Email `ucla-p-email`
+1. Address `ucla-p-adr`
+1. Campus Mailcode `ucla-p-campus-mailcode`
+1. Short summary `ucla-p-summary`
+1. Links `ucla-p-links`
+  1. Site `ucla-p-link-site`
+  1. Site URL `ucla-p-link-url`
+  1. Site Name `ucla-p-link-name`
+1. Interests 
+  1. Knows About `ucla-p-knows-about`
+
+## To Do
+
+1. Move custom post types to a plugin and to offer set commonly used by academic departments and units at UCLA.
+1. Rest API for custom content types
+
+## Issues and suggestions
+- Use Github Issues.
