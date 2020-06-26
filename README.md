@@ -89,8 +89,9 @@ Post issues and submit pull requests to [GitHub](https://github.com/ucla-ux/ucla
 
 ## To Do
 
-1. Move custom post types to a plugin and to offer set commonly used by academic departments and units at UCLA.
+1. Move custom post types to a plugin
 1. Rest API for custom content types
+1. Move to do list to Github Issues
 
 ## Issues and suggestions
 - Use Github Issues.
